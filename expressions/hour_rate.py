@@ -9,8 +9,8 @@ try:
     rate = float(rate)
 except:
     print('Error, please enter a numeric input')
-    # quit so the program won't continue
     quit()
+    # quit so the program won't continue
 
 if hour <= 40:
     pay = hour * rate
