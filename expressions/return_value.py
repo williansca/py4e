@@ -1,3 +1,4 @@
+##function with a local variable
 def comprimentar(opcao):
     if opcao == 'es':
         return 'Hola'
